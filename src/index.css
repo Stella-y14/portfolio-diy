@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Betania+Patmos&family=Edu+SA+Beginner&family=Gantari:wght@300&family=Slackey&display=swap');
+body {
+    background-color: rgb(208, 176, 216);
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensures it stays above other content */
+  background-color: white; /* Important so content behind it doesn't show through */
+}
+
+nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Slackey", sans-serif;
+    text-align: right;
+    font-size: larger;
+}
+
+nav a {
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+div {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: "Edu SA Beginner", sans-serif;
+}
+
+p {
+    font-family: "Gantari", sans-serif;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 250, 250);
+}
+
+footer p {
+    text-align: center;
+    font-size: 15px;
+    font-family: "Betania Patmos", sans-serif;
+}
